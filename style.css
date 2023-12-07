@@ -4,7 +4,12 @@ html{
 html body{
     background-color: aqua;
 }
+#index-header {
+    text-shadow: 1px 1px;
+}
 header{
     text-align: center;
-    text-shadow: 1px 1px;
+}
+nav{
+    text-align: center;
 }
