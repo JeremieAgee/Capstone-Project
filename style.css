@@ -13,3 +13,12 @@ header {
 nav {
 	text-align: center;
 }
+#jeremies-pic{
+    float: right;
+    height: 100px;
+    width: 100px;
+}
+#resume-container{
+    width: fit-content;
+    height: fit-content;
+}
