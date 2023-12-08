@@ -1,15 +1,15 @@
-html{
-    background-color: white;
+html {
+	background-color: white;
 }
-html body{
-    background-color: aqua;
+html body {
+	background-color: aqua;
 }
 #index-header {
-    text-shadow: 1px 1px;
+	text-shadow: 1px 1px;
 }
-header{
-    text-align: center;
+header {
+	text-align: center;
 }
-nav{
-    text-align: center;
+nav {
+	text-align: center;
 }
