@@ -15,14 +15,14 @@ var webCustomer = {
 	Email: "",
 	Description: "",
 	Option: "Website",
-}
+};
 var gameCustomer = {
 	FirstName: "",
 	LastName: "",
 	Email: "",
 	Description: "",
 	Option: "Game",
-}
+};
 let fName,
 	lName,
 	emailAdd,
@@ -45,20 +45,35 @@ btn1.onclick = createWebCustomer;
 btn2.onclick = createGameCustomer;
 let form1 = document.querySelector("#services-card-1");
 let form2 = document.querySelector("#services-card-2");
-function createWebCustomer(){
+function createWebCustomer() {
+	if (fName.value != undefined) {
 	webCustomer.FirstName = fName.value;
+	}
+	if (lName.value != undefined) {
 	webCustomer.LastName = lName.value;
+	}
+	if (emailAdd.value != undefined) {
 	webCustomer.Email = emailAdd.value;
+	}
+	if (description.value != undefined) {
 	webCustomer.Description = description.value;
+	}
 	console.log(webCustomer);
 	form1.style.display = "None";
 }
-function createGameCustomer(){
-	gameCustomer.FirstName = fName1.value;
-	gameCustomer.LastName = lName1.value;
+function createGameCustomer() {
+	if (fName1.value != undefined) {
+		gameCustomer.FirstName = fName1.value;
+	}
+	if (lName1.value != undefined) {
+		gameCustomer.LastName = lName1.value;
+	}
+	if (emailAdd1.value != undefined) {
 	gameCustomer.Email = emailAdd1.value;
+	}
+	if (description1.value != undefined) {
 	gameCustomer.Description = description1.value;
+	}
 	console.log(gameCustomer);
 	form2.style.display = "None";
 }
-
