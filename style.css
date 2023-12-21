@@ -22,6 +22,8 @@ header h1 {
 }
 
 footer {
+
+	bottom: 0%;
 	text-align: center;
 }
 .card {
@@ -90,6 +92,7 @@ footer {
 #form-container {
 	background-color: yellow;
 }
+
 #contact-info {
 	position: absolute;
 	max-width: fit-content;
@@ -98,10 +101,7 @@ footer {
 .list-group-item {
 	text-align: left;
 }
-#index-row{
+#index-row {
 	padding: 50px;
 }
-.footers{
-	position: absolute;
-	bottom: 5px;
-}
+
