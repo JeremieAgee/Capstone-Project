@@ -21,13 +21,12 @@ header h1 {
 	color: aqua;
 }
 
-footer {
-
+.footers{
+	position: absolute;
 	bottom: 0%;
-	text-align: center;
 }
-.card {
-	height: 100px;
+.cards {
+	height: 225px;
 }
 #jeremies-pic {
 	height: 100px;

@@ -39,8 +39,8 @@ fName1 = document.querySelector("#fname2");
 lName1 = document.querySelector("#lname2");
 emailAdd1 = document.querySelector("#email2");
 description1 = document.querySelector("#description2");
-btn1 = document.querySelector("#submit1");
-btn2 = document.querySelector("#submit2");
+btn1 = document.querySelector('#submit1');
+btn2 = document.querySelector('#submit2');
 btn1.onclick = createWebCustomer;
 btn2.onclick = createGameCustomer;
 let form1 = document.querySelector("#services-card-1");
@@ -69,7 +69,7 @@ function createGameCustomer() {
 		gameCustomer.LastName = lName1.value;
 	}
 	if (emailAdd1.value != undefined) {
-	gameCustomer.Email = emailAdd1.value;
+	gameCustomer.Email = emailAdd1.value;      
 	}
 	if (description1.value != undefined) {
 	gameCustomer.Description = description1.value;
